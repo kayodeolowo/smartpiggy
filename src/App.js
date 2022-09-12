@@ -1,11 +1,14 @@
 
 import './App.css';
+import Navbar from './pages/Navbar';
+import Hero from './pages/Hero';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='text-red-400'> fhd </h1>
-    </div>
+   <section> 
+      <Navbar/>
+      <Hero/>
+   </section>
   );
 }
 
